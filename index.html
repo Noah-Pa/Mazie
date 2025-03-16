@@ -140,7 +140,7 @@
 <body>
     <h2>Maze Game</h2>
     <p>Level: <span id="levelDisplay">1</span></p>
-    <p>I have a gift for u at the end of lv 3 :3~ </p>
+    <p>try to reach lv 5!! I bet u can't dummie >:3 </p>
     <div id="start-buttons">
         <button onclick="startGame()">Press Me XD</button>
     </div>
@@ -165,14 +165,14 @@
         const size = 10;
         let maze, userPosition, gameOver;
         let currentLevel = 1;
-        const scaryImages = ['1.jpg', '2.jpg', '3.jpg', '4.png'];
+        const scaryImages = ['1.jpg', '2.webp', '3.png', '4.png'];
 
         function playButtonSound() {
             const clickSound = document.getElementById('click-sound');
             clickSound.play();
         }
 
-        function startGame() {
+        function startGame() {s
             playButtonSound();
             document.getElementById('bgm-audio').play();
             document.getElementById('start-buttons').style.display = 'none';
